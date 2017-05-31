@@ -1,0 +1,11 @@
+/*.blue {
+  background-color: blue;
+  width: 100%;
+  height: 100px;
+}*/
+
+.friend {
+  border: 2px solid dodgerblue;
+  padding: 20px;
+  margin: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="friendsList">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-controller="friendsListCtrl">
+
+    <div class="friend" ng-repeat="friend in friends">
+      <p>name: {{friend.name}}</p>
+      <p>location: {{friend.location}}</p>
+      <button type="button" name="button" ng-click="sayHi(friend)"
+    </div>
+    <!-- <div class = "blue"></div> -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="friendsListCtrl.js"></script>
+
+  </body>
+</html>
